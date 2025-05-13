@@ -139,8 +139,10 @@ img {
 
 
 @media screen and (max-width: 480px){
+    
     .container{
         max-width: 480px;
+        width: 100%;
     }
 
     p{
@@ -152,11 +154,11 @@ img {
     }
 
     .site-header  h1{
-        font-size: 3.3rem;
+        font-size: 3.1rem;
     }
 
     .container h2{
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
 
     .row{
@@ -178,6 +180,10 @@ img {
         margin-bottom: 30px;
     }
 
+    .steps{
+        padding-bottom: 0;
+    }
+
     .steps .col{
         width: 100%;
 
@@ -193,5 +199,24 @@ img {
             max-width: 90%;
             margin: 0 auto;
         }
+    }
+
+    .why-us {
+        background-color: #222222;
+        padding: 50px 0;
+        margin: -45px auto;
+    }
+
+    .why-us .row{
+        display: block;
+    }
+
+    .why-us .col-left{
+        width: 90%;
+        margin-bottom: 70px;
+    }
+
+    .why-us .col-right{
+        width: 90%;
     }
 }
