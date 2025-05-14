@@ -220,10 +220,11 @@ img {
 
     .why-us .col-left{
         width: 90%;
-        margin-bottom: 70px;
+        margin: 0 auto 70px;
     }
 
     .why-us .col-right{
         width: 90%;
+        margin: 0 auto;
     }
 }
